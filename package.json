@@ -1,0 +1,33 @@
+{
+  "name": "axios-adapter-offline",
+  "version": "0.1.0",
+  "description": "offline adapter for axios",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "eslint lib"
+  },
+  "keywords": [
+    "axios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tiagodurante/axios-adapter-offline.git"
+  },
+  "author": "tiagodurante",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "js-base64": "^2.4.5",
+    "localforage": "^1.7.1"
+  }
+}
