@@ -1,21 +1,29 @@
-axios-offline-adapter
+axios-adapter-offline
 ===
 
-cache response each time, responed with cached when request in offline environment
+Cache response each time, responed with cached when request in offline environment.
+
+Repository based from [ali322](https://github.com/ali322/axios-offline-adapter)
 
 ## Install
 
 ```bash
-npm i axios-offline-adapter --save
+npm i axios-adapter-offline --save
+```
+
+or
+
+```bash
+yarn add axios-adapter-offline
 ```
 
 ## Usage
 
-add adapter in your request code
+Add adapter in your request code
 
 ```javascript
 import axios from 'axios'
-import offlineAdapter from 'axios-offline-adapter'
+import offlineAdapter from 'axios-adapter-offline'
 
 const offline = offlineAdapter({
   name: 'axios-offline',
